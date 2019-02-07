@@ -20,7 +20,18 @@ obj.a = 9;
 // For Practice
 
 // declare an object with an object as a property
+const testVariable = {
+    x : {
+        a : 'Hello',
+        b : 5,
 
+    },
+};
+console.log(testVariable);
 // delete a property
-
+delete testVariable.x;
+testVariable.b="Hey";
+console.log(testVariable);
 // change a property
+testVariable.a="World";
+console.log(testVariable);
